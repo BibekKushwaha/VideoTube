@@ -42,6 +42,6 @@ connectDb()
     })
     console.log("database connected")
 })
-.catch((error)=>{
-    console.log("database connection failed in index file",error);
+.catch((err)=>{
+    console.log("database connection failed in index file",err);
 });
